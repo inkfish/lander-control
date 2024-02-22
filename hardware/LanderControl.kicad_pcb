@@ -16720,7 +16720,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/db893d79-ad7e-4455-aafa-9f77f06d6aa0")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "DNP_R1" (at 4.6 0 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7e2956ef-8953-4cb1-99ac-5e6f39480038)
@@ -19257,7 +19257,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/5d00c326-4aba-47cc-a3b8-86e012f4189a/5debdb5e-cc17-4a23-ba71-a93c16b962c0")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "DNP3" (at 0 1.43 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8179947e-dfa1-4b28-b4ed-792bcf593343)
@@ -19312,7 +19312,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/e2be053f-0f0b-4da5-aaf3-263f3ad6620d/5debdb5e-cc17-4a23-ba71-a93c16b962c0")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "DNP5" (at 0 1.43 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp fcda3a2c-125b-4fac-aff2-848b9a709637)
@@ -19367,7 +19367,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/64f6c495-9bf8-4359-accd-1c1635c49801/46652f82-cff8-4e26-8fb4-4dd871613b07")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "DNP2" (at 0 1.43 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 527723cd-eadb-4869-bec6-013974f83380)
@@ -19422,7 +19422,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/64f6c495-9bf8-4359-accd-1c1635c49801/5debdb5e-cc17-4a23-ba71-a93c16b962c0")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "DNP1" (at 0 1.43 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 67a6191e-5948-427e-addb-d05e1ee554c4)
@@ -19477,7 +19477,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/5d00c326-4aba-47cc-a3b8-86e012f4189a/46652f82-cff8-4e26-8fb4-4dd871613b07")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "DNP4" (at 0 2.13 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a5b885c0-3228-4ff9-b58f-657b84ab9a23)
@@ -19532,7 +19532,7 @@
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/e2be053f-0f0b-4da5-aaf3-263f3ad6620d/46652f82-cff8-4e26-8fb4-4dd871613b07")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "DNP6" (at 0 1.43 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b135bdae-5294-4465-9be0-5020e3192598)
