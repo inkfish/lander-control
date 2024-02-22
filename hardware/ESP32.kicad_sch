@@ -3892,7 +3892,7 @@
     (property "Value" "ESP32-C6-WROOM-1U-N4" (at 123.19 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ESP32_C6_WROOM_1U_N4 (1):XCVR_ESP32-C6-WROOM-1U-N4" (at 123.19 95.25 0)
+    (property "Footprint" "ESP32_C6_WROOM_1U_N4:XCVR_ESP32-C6-WROOM-1U-N4" (at 123.19 95.25 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 123.19 95.25 0)
