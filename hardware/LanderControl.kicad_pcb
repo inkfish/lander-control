@@ -2796,7 +2796,7 @@
     (property "ki_description" "Zener diode")
     (property "ki_keywords" "diode")
     (path "/fdb9b8c2-491b-4c83-bffc-65e1bd5bd6f4")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "D2" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1a487a1a-2c71-4221-bf55-8049dd5cd87e)
@@ -18156,7 +18156,7 @@
     (property "ki_description" "Zener diode")
     (property "ki_keywords" "diode")
     (path "/a25478fc-673c-4391-99df-6d875b7bf883")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "D1" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 26c45768-bb40-4b15-bf5b-d913fe51f681)

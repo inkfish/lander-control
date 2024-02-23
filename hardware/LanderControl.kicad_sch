@@ -3404,7 +3404,7 @@
   )
 
   (symbol (lib_id "Device:D_Zener") (at 64.77 231.14 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid a25478fc-673c-4391-99df-6d875b7bf883)
     (property "Reference" "D1" (at 67.31 231.14 0)
       (effects (font (size 1.27 1.27)))
@@ -3931,7 +3931,7 @@
   )
 
   (symbol (lib_id "Device:D_Zener") (at 100.33 231.14 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid fdb9b8c2-491b-4c83-bffc-65e1bd5bd6f4)
     (property "Reference" "D2" (at 102.87 231.14 0)
       (effects (font (size 1.27 1.27)))

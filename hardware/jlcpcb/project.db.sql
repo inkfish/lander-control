@@ -40,7 +40,7 @@ INSERT INTO part_info VALUES('D16','1N4148W','D_SOD-123','C5380711','',0,0);
 INSERT INTO part_info VALUES('R3','100k','R_0603_1608Metric','C14675','',0,0);
 INSERT INTO part_info VALUES('D20','SS210LW','D_SOD-123','C5380711','',0,0);
 INSERT INTO part_info VALUES('C20','100nF','C_0603_1608Metric','C14663','',0,0);
-INSERT INTO part_info VALUES('D2','D_Zener','D_0603_1608Metric','','',0,0);
+INSERT INTO part_info VALUES('D2','D_Zener','D_0603_1608Metric','','',1,1);
 INSERT INTO part_info VALUES('C19','100nF','C_0603_1608Metric','C14663','',0,0);
 INSERT INTO part_info VALUES('R35','10k','R_0603_1608Metric','C98220','',0,0);
 INSERT INTO part_info VALUES('R10','0','R_0603_1608Metric','C3980353','',0,0);
@@ -137,7 +137,7 @@ INSERT INTO part_info VALUES('C36','>50V>25uF','CP_Elec_6.3x4.9','C344075','',0,
 INSERT INTO part_info VALUES('Q1','BC846','SOT-23','C87062','',0,0);
 INSERT INTO part_info VALUES('C3','100nF','C_0603_1608Metric','C14663','',0,0);
 INSERT INTO part_info VALUES('C21','100nF','C_0603_1608Metric','C14663','',0,0);
-INSERT INTO part_info VALUES('D1','D_Zener','D_0603_1608Metric','','',0,0);
+INSERT INTO part_info VALUES('D1','D_Zener','D_0603_1608Metric','','',1,1);
 INSERT INTO part_info VALUES('D18','D_Zener','D_SOD-123','C460841','',0,0);
 INSERT INTO part_info VALUES('U6','SN65C3221EPWR','SOP65P640X120-16N','C130196','',0,0);
 INSERT INTO part_info VALUES('R46','10k','R_0603_1608Metric','C98220','',0,0);
