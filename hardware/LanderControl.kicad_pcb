@@ -13209,7 +13209,7 @@
     (property "Sheetfile" "RTC.kicad_sch")
     (property "Sheetname" "RTC")
     (path "/6f05f9b8-ff4c-474b-bb06-1be585c5d56c/ef57fbf5-3ae1-443e-bf8a-d460dc865ea4")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "U5" (at 7.16 2.62 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 03cf5761-aa71-412d-a5f9-1901efaaf97a)

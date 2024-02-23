@@ -62,7 +62,7 @@ INSERT INTO part_info VALUES('R24','0','R_0603_1608Metric','C3980353','',0,0);
 INSERT INTO part_info VALUES('U1','SC0915','MODULE_SC0915','C7203002','',0,0);
 INSERT INTO part_info VALUES('R48','560','R_0603_1608Metric','C114629','',0,0);
 INSERT INTO part_info VALUES('R38','10k','R_0603_1608Metric','C98220','',0,0);
-INSERT INTO part_info VALUES('U5','DS3231_breakout','DS3231_breakout','','',0,0);
+INSERT INTO part_info VALUES('U5','DS3231_breakout','DS3231_breakout','','',1,1);
 INSERT INTO part_info VALUES('R45','10k','R_0603_1608Metric','C98220','',0,0);
 INSERT INTO part_info VALUES('U12','SI7489DP-T1-E3','PowerPAK_SO-8_Single','C141576','',0,0);
 INSERT INTO part_info VALUES('TH3','Thermistor_PTC','R_1210_3225Metric','C2843992','',0,0);
