@@ -18799,7 +18799,7 @@
         (effects (font (size 1.640409 1.640409) (thickness 0.15)))
       (tstamp 52d5a448-27bf-4479-96e0-581ff69bb620)
     )
-    (fp_text value "PCA9500PW,118" (at 14.276425 4.046255) (layer "F.Fab")
+    (fp_text value "TCA9534APWR" (at 14.276425 4.046255) (layer "F.Fab")
         (effects (font (size 1.64311 1.64311) (thickness 0.15)))
       (tstamp 1b7c0011-ca7a-46c6-b154-20b2e1ac78b6)
     )
