@@ -702,6 +702,11 @@
       (solder_mask_margin 0.102) (tstamp 717db86f-39d4-4263-aae2-19f1eb434492))
     (pad "P4" smd rect (at -6.55 5.95 180) (size 1.4 1.9) (layers "F.Cu" "F.Paste" "F.Mask")
       (solder_mask_margin 0.102) (tstamp 77650b50-29ac-4eea-97dc-e73f00c5282f))
+    (model "${KIPRJMOD}/external_libs/sdcard/MEM2051-00-195-00-A.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 180))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
@@ -1970,7 +1975,7 @@
       (net 49 "Net-(D16-K)") (pinfunction "D") (pintype "unspecified") (tstamp 50a64abd-5fc9-4ed9-a555-da0ed03fc19b))
     (pad "5" smd rect (at 2.795 1.905 180) (size 1.02 0.61) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 49 "Net-(D16-K)") (pinfunction "D") (pintype "unspecified") (tstamp 4eda6868-2d5d-4d4c-8a4b-9643c14c8e7a))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/PowerPAK_SO-8_Single.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/PQFN-8-EP_6x5mm_P1.27mm_Generic.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2167,6 +2172,11 @@
       (net 125 "/ESP32/BOOT") (pintype "passive") (solder_mask_margin 0.102) (tstamp a92f7d10-24c1-4de4-85be-bccb29a04544))
     (pad "4" thru_hole circle (at 3.25 2.25) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask")
       (net 126 "unconnected-(S2-Pad4)") (pintype "passive") (solder_mask_margin 0.102) (tstamp c139b039-90dd-4108-86d9-e9802a4e9673))
+    (model ":KICAD7_3DMODEL_DIR:Button_Switch_THT.3dshapes/SW_PUSH_6mm_H9.5mm.wrl"
+      (offset (xyz -3.25 2.25 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
@@ -3122,7 +3132,7 @@
       (net 48 "Net-(D15-K)") (pinfunction "D") (pintype "unspecified") (tstamp a20cd9a1-f643-4d7a-8dfa-fceb2d450a7f))
     (pad "5" smd rect (at 2.795 1.905 180) (size 1.02 0.61) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 48 "Net-(D15-K)") (pinfunction "D") (pintype "unspecified") (tstamp 21c706bb-e125-4ef0-ba44-854c07ac3a87))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/PowerPAK_SO-8_Single.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/PQFN-8-EP_6x5mm_P1.27mm_Generic.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13093,6 +13103,11 @@
       (net 41 "unconnected-(U1-TP5_GPIO25{slash}LED-PadTP5)") (pinfunction "TP5_GPIO25/LED") (pintype "output+no_connect") (tstamp 4338462c-3e20-4f8b-8d67-0d12e0c950f8))
     (pad "TP6" smd roundrect (at -2.5 -12.5 180) (size 1.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.3)
       (net 42 "unconnected-(U1-TP6_BOOTSEL-PadTP6)") (pinfunction "TP6_BOOTSEL") (pintype "input+no_connect") (tstamp e623c094-02da-470d-9da7-64ed879cafc1))
+    (model "${KIPRJMOD}/external_libs/PICO/SC0915.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 180))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
@@ -13358,7 +13373,7 @@
       (net 53 "Net-(D20-K)") (pinfunction "D") (pintype "unspecified") (tstamp d6114788-59bd-4f89-8baf-554554aa7fe3))
     (pad "5" smd rect (at 2.795 1.905 180) (size 1.02 0.61) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 53 "Net-(D20-K)") (pinfunction "D") (pintype "unspecified") (tstamp 5d79c76d-2721-4f6d-bc1b-39bb62ad173b))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/PowerPAK_SO-8_Single.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/PQFN-8-EP_6x5mm_P1.27mm_Generic.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13657,7 +13672,7 @@
       (net 58 "Net-(D23-K)") (pinfunction "D") (pintype "unspecified") (tstamp 784fcfcd-f5df-4188-a868-cba96bb5c8cb))
     (pad "5" smd rect (at 2.795 1.905 180) (size 1.02 0.61) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 58 "Net-(D23-K)") (pinfunction "D") (pintype "unspecified") (tstamp d598ea30-7060-48d9-b4f7-ac120ed0e0c8))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/PowerPAK_SO-8_Single.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/PQFN-8-EP_6x5mm_P1.27mm_Generic.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14784,6 +14799,11 @@
       (net 32 "+3V3") (pinfunction "VCC") (pintype "power_in") (solder_mask_margin 0.102) (tstamp d24cbffb-e6d0-4c8c-97bf-ddb4cae98e87))
     (pad "16" smd roundrect (at 2.87 -2.275 270) (size 1.57 0.41) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
       (net 32 "+3V3") (pinfunction "~{FORCEOFF}") (pintype "input") (solder_mask_margin 0.102) (tstamp fa85907c-1ec8-4f8d-88a8-cba2cef2c592))
+    (model "${KIPRJMOD}/external_libs/SN65C3221EPWR/SN65C3221EPWR.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
@@ -16852,7 +16872,7 @@
       (net 59 "Net-(D24-K)") (pinfunction "D") (pintype "unspecified") (tstamp 0e160145-9c91-4b4e-9148-9966b114f9b0))
     (pad "5" smd rect (at 2.795 1.905 180) (size 1.02 0.61) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 59 "Net-(D24-K)") (pinfunction "D") (pintype "unspecified") (tstamp 8d4a855e-73b1-4f9b-bd17-02495f172f37))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/PowerPAK_SO-8_Single.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/PQFN-8-EP_6x5mm_P1.27mm_Generic.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -17751,6 +17771,11 @@
     (pad "30_10" thru_hole circle (at -0.255 -2.065 270) (size 0.35 0.35) (drill 0.25) (layers "*.Cu") (tstamp 77c7cb28-2914-4f40-af2c-b49ac9a62efc))
     (pad "30_11" thru_hole circle (at -2.13 -1.44 270) (size 0.35 0.35) (drill 0.25) (layers "*.Cu") (tstamp f592f914-0a41-421b-a360-e6ae4bf86497))
     (pad "30_12" thru_hole circle (at -0.88 -1.44 270) (size 0.35 0.35) (drill 0.25) (layers "*.Cu") (tstamp d9122d91-6201-412b-abcc-4aed9e98e4b5))
+    (model "${KIPRJMOD}/external_libs/ESP32/ESP32-C6-WROOM-1U.step"
+      (offset (xyz 0 3.15 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
@@ -17869,7 +17894,7 @@
       (net 52 "Net-(D19-K)") (pinfunction "D") (pintype "unspecified") (tstamp e23e1191-66ba-433b-b4be-e8e47b69e025))
     (pad "5" smd rect (at 2.795 1.905 180) (size 1.02 0.61) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 52 "Net-(D19-K)") (pinfunction "D") (pintype "unspecified") (tstamp a44d7ae3-ea5e-4f0b-96e5-20193cc59e26))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/PowerPAK_SO-8_Single.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/PQFN-8-EP_6x5mm_P1.27mm_Generic.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -18354,6 +18379,11 @@
       (net 32 "+3V3") (pinfunction "VCC") (pintype "power_in") (solder_mask_margin 0.102) (tstamp c538bae1-1bf4-4a37-ae04-897be8cd4fcb))
     (pad "16" smd roundrect (at 2.87 -2.275 270) (size 1.57 0.41) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
       (net 32 "+3V3") (pinfunction "~{FORCEOFF}") (pintype "input") (solder_mask_margin 0.102) (tstamp 58d5176e-9fff-429a-b99f-59146f82c396))
+    (model "${KIPRJMOD}/external_libs/SN65C3221EPWR/SN65C3221EPWR.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
@@ -18772,6 +18802,11 @@
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 3e818e60-c721-45f6-81db-299257807bc9))
     (pad "3" thru_hole circle (at 0 2.54 90) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask")
       (net 19 "+5V") (pinfunction "+VO") (pintype "output") (tstamp 5ac29026-9c16-49d1-9567-ed88a2a8454e))
+    (model "${KIPRJMOD}/external_libs/P7805-500R/P7805-500R.step"
+      (offset (xyz 8 0 -6.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (footprint "GPIOEXPANDER:SOP65P640X110-16N" (layer "F.Cu")
@@ -18987,6 +19022,11 @@
       (net 25 "GP20") (pinfunction "SDA") (pintype "bidirectional") (solder_mask_margin 0.102) (tstamp 2310bde8-ea0f-43ef-afda-dd59c33005e2))
     (pad "16" smd rect (at 2.921 -2.286) (size 1.4732 0.3556) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 32 "+3V3") (pinfunction "VDD") (pintype "power_in") (solder_mask_margin 0.102) (tstamp 5b4321d8-ca8d-4987-be87-800c37c51ee1))
+    (model "${KIPRJMOD}/external_libs/GPIOEXPANDER/PCA9500PW_118.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
@@ -19178,6 +19218,11 @@
       (net 32 "+3V3") (pinfunction "VCC") (pintype "power_in") (solder_mask_margin 0.102) (tstamp ce35eb09-b8aa-4dfa-9f04-5b8a1bab0c8c))
     (pad "16" smd roundrect (at 2.87 -2.275 270) (size 1.57 0.41) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
       (net 32 "+3V3") (pinfunction "~{FORCEOFF}") (pintype "input") (solder_mask_margin 0.102) (tstamp 920fb82d-ac1c-4689-b77c-54cdaf7c20af))
+    (model "${KIPRJMOD}/external_libs/SN65C3221EPWR/SN65C3221EPWR.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "button:SW_TS02-66-100-BK-100-LCR-D" (layer "F.Cu")
@@ -19244,6 +19289,11 @@
       (net 33 "/ESP32/EN") (pintype "passive") (solder_mask_margin 0.102) (tstamp 5fb53d64-b05e-48f3-b960-4e4d4f38e84c))
     (pad "4" thru_hole circle (at 3.25 2.25) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask")
       (net 123 "unconnected-(S1-Pad4)") (pintype "passive") (solder_mask_margin 0.102) (tstamp 033f9102-d8a1-43f4-a191-1f0f42d48379))
+    (model ":KICAD7_3DMODEL_DIR:Button_Switch_THT.3dshapes/SW_PUSH_6mm_H9.5mm.wrl"
+      (offset (xyz -3.25 2.25 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "B.Cu")
